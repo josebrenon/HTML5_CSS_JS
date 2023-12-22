@@ -1,0 +1,65 @@
+/* Meu primeiro arquivo css */
+p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px #111111;
+    padding: 0
+}
+header{
+    background-color: rgb(61, 61, 233);
+    height: 80px;
+    padding: 20px;
+}
+h1{
+    color: rgb(181, 209, 25);
+    padding: 50px;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+#logo{
+    float: left;
+}
+#menu{
+    margin-top: 20px;
+    float: right;
+}
+#menu a{
+    color: #111111;
+    padding: 60px 15px;
+    text-decoration: none; /* tira o sublinhado*/
+}
+#menu a:hover{
+    background-color: rgb(78, 78, 233); /* coloca sobreposição*/
+    color: #111;
+}
+#div_principal{
+    clear: both;
+    background-image: url(cidade.jpg);
+    background-size: 100%;
+    min-height: 455px;
+    padding: 100px 0 0 0;
+}
+
+footer{
+    background-color: rgb(61, 61, 233);
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px;
+}
+.conteiner{
+    width: 960px;
+    margin: 0 auto;
+}
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 35px 0 35px 0;
+}
